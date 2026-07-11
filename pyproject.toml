@@ -1,0 +1,71 @@
+[project]
+name = "vk-oc-projet08-credit-scoring-production"
+version = "0.1.0"
+description = "Production deployment of the credit scoring model with FastAPI, Docker, CI/CD and monitoring"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+
+    # ==========================
+    # Machine Learning
+    # ==========================
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "lightgbm>=4.0",
+    "mlflow>=3.0",
+
+    # Data
+    "pyarrow>=18.0",
+
+    # ==========================
+    # API
+    # ==========================
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.6",
+
+    # ==========================
+    # Database
+    # ==========================
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+
+    # ==========================
+    # Monitoring
+    # ==========================
+    "streamlit>=1.45",
+    "evidently>=0.7.21",
+
+    # ==========================
+    # Configuration
+    # ==========================
+    "python-dotenv>=1.0",
+
+    # Logging
+    "loguru>=0.7",
+
+    # HTTP
+    "httpx>=0.28",
+]
+
+[project.optional-dependencies]
+
+dev = [
+
+    "pytest>=8.3",
+    "pytest-cov>=6.0",
+
+    "black>=25.0",
+    "ruff>=0.11",
+
+    "jupyterlab>=4.4",
+    "ipykernel>=6.29",
+
+    "matplotlib>=3.10",
+    "seaborn>=0.13",
+
+    "plotly>=5.24,<6"
+]
