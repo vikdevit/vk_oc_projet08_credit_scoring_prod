@@ -44,3 +44,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t credit-scoring-api .
+
+      - name: Deploy to Render
+        run: |
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
