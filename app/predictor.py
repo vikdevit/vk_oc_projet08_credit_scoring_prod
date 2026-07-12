@@ -4,16 +4,17 @@ from src.model_loader import load_model
 from src.model_config import load_threshold
 
 
-model = load_model()
-
-threshold = load_threshold()
-
-
 def predict(features):
+
+    model = load_model()
+
+    threshold = load_threshold()
+
 
     df = pd.DataFrame(
         [features]
     )
+
 
     probability = model.predict_proba(
         df
