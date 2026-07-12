@@ -1,4 +1,4 @@
-import mlflow
+import mlflow.sklearn
 
 
 MODEL_URI = "models:/P06_LightGBM_Optimized@champion"
@@ -10,8 +10,6 @@ def load_model():
         "http://127.0.0.1:5000"
     )
 
-    model = mlflow.pyfunc.load_model(
-        MODEL_URI
-    )
-
-    return model
+    return mlflow.sklearn.load_model(
+            MODEL_URI
+            )
