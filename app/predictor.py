@@ -63,7 +63,7 @@ def predict(features: dict, db: Session):
     db.add(prediction_record)
 
 
-    db.commit()
+    #db.commit()
 
     return {
         "client_id": client_id,
