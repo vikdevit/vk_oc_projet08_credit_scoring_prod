@@ -10,9 +10,11 @@ from app.models.prediction import Prediction
 from app.models.input_data import InputData
 
 
+# avant optimisation
+#MODEL_VERSION = "LightGBM_v1"
 
-MODEL_VERSION = "LightGBM_v1"
-
+# après optimisation
+MODEL_VERSION = "LightGBM_v2"
 
 def predict(features: dict, db: Session):
 
