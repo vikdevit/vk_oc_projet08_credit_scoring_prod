@@ -1,0 +1,81 @@
+name: CI Credit Scoring API
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install uv
+        run: |
+          pip install uv
+
+      - name: Install dependencies
+        run: |
+          uv sync --frozen --extra dev
+
+      - name: Run pytest
+        run: |
+          PYTHONPATH=. uv run pytest tests -v
+
+  build_test:
+
+    needs: tests
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image (test)
+        run: |
+          docker build \
+          -t credit-scoring-api:test \
+          .
+
+  build_prod:
+
+    needs: build_test
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image (production)
+        run: |
+          docker build -t credit-scoring-api .
+
+  deploy:
+
+    needs: build_prod
+
+    runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/main'
+
+    steps: 
+
+      - name: Trigger Deployment to Render
+        run: |
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
