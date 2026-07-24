@@ -667,6 +667,13 @@ Fonctionnalités réalisées :
 
 ---
 
+## Historique du projet
+
+Voir :
+docs/commits_history.md
+
+---
+
 # Améliorations possibles
 
 
