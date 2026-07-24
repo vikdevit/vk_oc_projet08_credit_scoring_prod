@@ -1,0 +1,998 @@
+{
+    "CNT_CHILDREN": {
+        "min": 0.0,
+        "max": 19.0
+    },
+    "AMT_ANNUITY": {
+        "min": 1615.5,
+        "max": 258025.5
+    },
+    "AMT_GOODS_PRICE": {
+        "min": 40500.0,
+        "max": 4050000.0
+    },
+    "REGION_POPULATION_RELATIVE": {
+        "min": 0.00029,
+        "max": 0.072508
+    },
+    "DAYS_EMPLOYED": {
+        "min": -17912.0,
+        "max": -1.0
+    },
+    "DAYS_REGISTRATION": {
+        "min": -24672.0,
+        "max": 0.0
+    },
+    "DAYS_ID_PUBLISH": {
+        "min": -7197.0,
+        "max": 0.0
+    },
+    "OWN_CAR_AGE": {
+        "min": 0.0,
+        "max": 91.0
+    },
+    "FLAG_MOBIL": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_EMP_PHONE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_WORK_PHONE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_CONT_MOBILE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_PHONE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_EMAIL": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "CNT_FAM_MEMBERS": {
+        "min": 1.0,
+        "max": 20.0
+    },
+    "REGION_RATING_CLIENT": {
+        "min": 1.0,
+        "max": 3.0
+    },
+    "REGION_RATING_CLIENT_W_CITY": {
+        "min": 1.0,
+        "max": 3.0
+    },
+    "HOUR_APPR_PROCESS_START": {
+        "min": 0.0,
+        "max": 23.0
+    },
+    "REG_REGION_NOT_LIVE_REGION": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "REG_REGION_NOT_WORK_REGION": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVE_REGION_NOT_WORK_REGION": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "REG_CITY_NOT_LIVE_CITY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "REG_CITY_NOT_WORK_CITY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVE_CITY_NOT_WORK_CITY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ORGANIZATION_TYPE": {
+        "min": 7.804598859878183e-05,
+        "max": 0.22110428570034893
+    },
+    "EXT_SOURCE_1": {
+        "min": 0.0145681324124455,
+        "max": 0.962692770561306
+    },
+    "EXT_SOURCE_2": {
+        "min": 8.173616518884397e-08,
+        "max": 0.8549996664047012
+    },
+    "EXT_SOURCE_3": {
+        "min": 0.0005272652387098,
+        "max": 0.8960095494948396
+    },
+    "APARTMENTS_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "BASEMENTAREA_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "COMMONAREA_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ELEVATORS_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ENTRANCES_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVINGAPARTMENTS_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVINGAREA_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NONLIVINGAPARTMENTS_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NONLIVINGAREA_AVG": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "APARTMENTS_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "BASEMENTAREA_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "COMMONAREA_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ELEVATORS_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ENTRANCES_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLOORSMAX_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLOORSMIN_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LANDAREA_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVINGAPARTMENTS_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVINGAREA_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NONLIVINGAPARTMENTS_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NONLIVINGAREA_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "APARTMENTS_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "BASEMENTAREA_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "YEARS_BEGINEXPLUATATION_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "YEARS_BUILD_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "COMMONAREA_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ELEVATORS_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ENTRANCES_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLOORSMAX_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLOORSMIN_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LANDAREA_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVINGAPARTMENTS_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "LIVINGAREA_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NONLIVINGAPARTMENTS_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NONLIVINGAREA_MEDI": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "TOTALAREA_MODE": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "DEF_30_CNT_SOCIAL_CIRCLE": {
+        "min": 0.0,
+        "max": 34.0
+    },
+    "OBS_60_CNT_SOCIAL_CIRCLE": {
+        "min": 0.0,
+        "max": 344.0
+    },
+    "DEF_60_CNT_SOCIAL_CIRCLE": {
+        "min": 0.0,
+        "max": 24.0
+    },
+    "DAYS_LAST_PHONE_CHANGE": {
+        "min": -4292.0,
+        "max": 0.0
+    },
+    "FLAG_DOCUMENT_2": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_3": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_4": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_5": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_6": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_7": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_8": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_9": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_10": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_11": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_12": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_13": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_14": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_15": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_16": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_17": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_18": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_19": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_20": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_DOCUMENT_21": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "AMT_REQ_CREDIT_BUREAU_HOUR": {
+        "min": 0.0,
+        "max": 4.0
+    },
+    "AMT_REQ_CREDIT_BUREAU_DAY": {
+        "min": 0.0,
+        "max": 9.0
+    },
+    "AMT_REQ_CREDIT_BUREAU_WEEK": {
+        "min": 0.0,
+        "max": 8.0
+    },
+    "AMT_REQ_CREDIT_BUREAU_MON": {
+        "min": 0.0,
+        "max": 27.0
+    },
+    "AMT_REQ_CREDIT_BUREAU_QRT": {
+        "min": 0.0,
+        "max": 261.0
+    },
+    "AMT_REQ_CREDIT_BUREAU_YEAR": {
+        "min": 0.0,
+        "max": 25.0
+    },
+    "CREDIT_INCOME_RATIO": {
+        "min": 0.08333333333333333,
+        "max": 84.73684210526316
+    },
+    "ANNUITY_INCOME_RATIO": {
+        "min": 0.00022388461538461538,
+        "max": 1.8759649122807018
+    },
+    "DAYS_EMPLOYED_ANOM": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "AGE_YEARS": {
+        "min": 20.517808219178082,
+        "max": 69.12054794520547
+    },
+    "EMPLOYMENT_YEARS": {
+        "min": -0.0,
+        "max": 49.07397260273972
+    },
+    "INCOME_PER_PERSON": {
+        "min": 2812.5,
+        "max": 675000.0
+    },
+    "DAYS_CREDIT_min": {
+        "min": -2922.0,
+        "max": 0.0
+    },
+    "DAYS_CREDIT_max": {
+        "min": -2922.0,
+        "max": 0.0
+    },
+    "DAYS_CREDIT_mean": {
+        "min": -2922.0,
+        "max": 0.0
+    },
+    "CREDIT_DAY_OVERDUE_max": {
+        "min": 0.0,
+        "max": 2792.0
+    },
+    "AMT_CREDIT_SUM_sum": {
+        "min": 0.0,
+        "max": 1017957917.385
+    },
+    "AMT_CREDIT_SUM_DEBT_sum": {
+        "min": -6981558.210000001,
+        "max": 334498331.20500004
+    },
+    "MONTHS_BALANCE_count_mean": {
+        "min": 1.0,
+        "max": 97.0
+    },
+    "MONTHS_BALANCE_min_min": {
+        "min": -96.0,
+        "max": 0.0
+    },
+    "MONTHS_BALANCE_max_max": {
+        "min": -92.0,
+        "max": 0.0
+    },
+    "HAS_LATE_max_max": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "AMT_ANNUITY_mean": {
+        "min": 0.0,
+        "max": 300425.445
+    },
+    "AMT_APPLICATION_sum": {
+        "min": 0.0,
+        "max": 37973713.5
+    },
+    "AMT_APPLICATION_mean": {
+        "min": 0.0,
+        "max": 4050000.0
+    },
+    "AMT_CREDIT_sum": {
+        "min": 0.0,
+        "max": 41461128.0
+    },
+    "AMT_CREDIT_mean": {
+        "min": 0.0,
+        "max": 4050000.0
+    },
+    "AMT_DOWN_PAYMENT_sum": {
+        "min": 0.0,
+        "max": 4037849.5949999997
+    },
+    "CNT_PAYMENT_mean": {
+        "min": 0.0,
+        "max": 72.0
+    },
+    "DAYS_DECISION_min": {
+        "min": -2922.0,
+        "max": -2.0
+    },
+    "DAYS_DECISION_max": {
+        "min": -2922.0,
+        "max": -1.0
+    },
+    "DAYS_DECISION_mean": {
+        "min": -2922.0,
+        "max": -2.0
+    },
+    "APP_CREDIT_RATIO_mean": {
+        "min": 0.0,
+        "max": 5.0
+    },
+    "DOWNPAYMENT_RATIO_mean": {
+        "min": 0.0,
+        "max": 0.9126936858337706
+    },
+    "AMT_INCOME_TOTAL_LOG": {
+        "min": 10.152337836193743,
+        "max": 13.710151153416941
+    },
+    "AMT_CREDIT_LOG": {
+        "min": 10.714439990727769,
+        "max": 15.214227685996272
+    },
+    "POS_MONTHS_BALANCE_MIN": {
+        "min": -96.0,
+        "max": -1.0
+    },
+    "POS_MONTHS_BALANCE_MAX": {
+        "min": -96.0,
+        "max": -1.0
+    },
+    "POS_MONTHS_BALANCE_COUNT": {
+        "min": 1.0,
+        "max": 295.0
+    },
+    "POS_SK_DPD_MAX": {
+        "min": 0.0,
+        "max": 4231.0
+    },
+    "POS_SK_DPD_MEAN": {
+        "min": 0.0,
+        "max": 2622.078431372549
+    },
+    "POS_SK_DPD_DEF_MAX": {
+        "min": 0.0,
+        "max": 3373.0
+    },
+    "POS_SK_DPD_DEF_MEAN": {
+        "min": 0.0,
+        "max": 1740.5544554455446
+    },
+    "POS_CNT_INSTALMENT_MEAN": {
+        "min": 1.0,
+        "max": 72.0
+    },
+    "POS_CNT_INSTALMENT_MAX": {
+        "min": 1.0,
+        "max": 84.0
+    },
+    "POS_CNT_INSTALMENT_FUTURE_MEAN": {
+        "min": 0.0,
+        "max": 60.0
+    },
+    "POS_HAS_LATE_MEAN": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "POS_HAS_LATE_MAX": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "POS_ACTIVE_CONTRACT_MEAN": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "POS_COMPLETED_CONTRACT_SUM": {
+        "min": 0.0,
+        "max": 85.0
+    },
+    "POS_COMPLETED_CONTRACT_MEAN": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "HAS_POS": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "INST_NUM_INSTALMENT_VERSION_NUNIQUE": {
+        "min": 1.0,
+        "max": 53.0
+    },
+    "INST_PAYMENT_DELAY_MEAN": {
+        "min": -295.0,
+        "max": 1884.2045454545455
+    },
+    "INST_PAYMENT_DELAY_MAX": {
+        "min": -156.0,
+        "max": 2884.0
+    },
+    "INST_PAYMENT_EARLY_MEAN": {
+        "min": -1884.2045454545455,
+        "max": 295.0
+    },
+    "INST_PAYMENT_EARLY_MAX": {
+        "min": -42.0,
+        "max": 3189.0
+    },
+    "INST_LATE_PAYMENT_MEAN": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "INST_LATE_PAYMENT_SUM": {
+        "min": 0.0,
+        "max": 159.0
+    },
+    "INST_UNDERPAID_MEAN": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "INST_UNDERPAID_SUM": {
+        "min": 0.0,
+        "max": 154.0
+    },
+    "INST_OVERPAID_MEAN": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "INST_PAYMENT_RATIO_MEAN": {
+        "min": 0.3333333333333333,
+        "max": 8482.446154543808
+    },
+    "INST_PAYMENT_RATIO_MAX": {
+        "min": 0.5121917657419639,
+        "max": 194250.0
+    },
+    "INST_PAYMENT_DIFF_MEAN": {
+        "min": -146145.9,
+        "max": 337496.805
+    },
+    "INST_AMT_INSTALMENT_MEAN": {
+        "min": 0.0,
+        "max": 2504589.66
+    },
+    "INST_AMT_PAYMENT_MEAN": {
+        "min": 0.189,
+        "max": 2504589.66
+    },
+    "INST_DAYS_INSTALMENT_MIN": {
+        "min": -2922.0,
+        "max": -3.0
+    },
+    "INST_DAYS_INSTALMENT_MAX": {
+        "min": -2922.0,
+        "max": -1.0
+    },
+    "HAS_INSTALLMENTS": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "CC_AMT_BALANCE_MEAN": {
+        "min": -2930.232558139535,
+        "max": 928686.3235714287
+    },
+    "CC_AMT_BALANCE_MAX": {
+        "min": 0.0,
+        "max": 1354829.265
+    },
+    "CC_AMT_CREDIT_LIMIT_ACTUAL_MEAN": {
+        "min": 0.0,
+        "max": 1350000.0
+    },
+    "CC_AMT_CREDIT_LIMIT_ACTUAL_MAX": {
+        "min": 0.0,
+        "max": 1350000.0
+    },
+    "CC_CREDIT_UTILIZATION_MEAN": {
+        "min": -0.08484848484848484,
+        "max": 2.1387896853932586
+    },
+    "CC_CREDIT_UTILIZATION_MAX": {
+        "min": 0.0,
+        "max": 11.77751
+    },
+    "CC_AMT_PAYMENT_TOTAL_CURRENT_MEAN": {
+        "min": 0.0,
+        "max": 1125000.0
+    },
+    "CC_AMT_PAYMENT_TOTAL_CURRENT_SUM": {
+        "min": 0.0,
+        "max": 19210117.365000002
+    },
+    "CC_TOTAL_DRAWINGS_MEAN": {
+        "min": 0.0,
+        "max": 1846929.9195
+    },
+    "CC_TOTAL_DRAWINGS_SUM": {
+        "min": 0.0,
+        "max": 36938598.39
+    },
+    "CC_CNT_DRAWINGS_CURRENT_MEAN": {
+        "min": 0.0,
+        "max": 118.25
+    },
+    "CC_CNT_DRAWINGS_CURRENT_MAX": {
+        "min": 0.0,
+        "max": 165.0
+    },
+    "CC_SK_DPD_MAX": {
+        "min": 0.0,
+        "max": 2831.0
+    },
+    "CC_SK_DPD_MEAN": {
+        "min": 0.0,
+        "max": 1386.9479166666667
+    },
+    "CC_SK_DPD_DEF_MAX": {
+        "min": 0.0,
+        "max": 2800.0
+    },
+    "CC_SK_DPD_DEF_MEAN": {
+        "min": 0.0,
+        "max": 1309.6
+    },
+    "CC_HAS_OVERLIMIT_MEAN": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "CC_HAS_DPD_MEAN": {
+        "min": 0.0,
+        "max": 0.9894736842105263
+    },
+    "NAME_CONTRACT_TYPE_Revolving_loans": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "CODE_GENDER_M": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "CODE_GENDER_XNA": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_OWN_CAR_Y": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FLAG_OWN_REALTY_Y": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_TYPE_SUITE_Family": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_TYPE_SUITE_Group_of_people": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_TYPE_SUITE_Missing": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_TYPE_SUITE_Other_A": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_TYPE_SUITE_Other_B": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_TYPE_SUITE_Spouse_partner": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_TYPE_SUITE_Unaccompanied": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_INCOME_TYPE_Commercial_associate": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_INCOME_TYPE_Maternity_leave": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_INCOME_TYPE_Pensioner": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_INCOME_TYPE_State_servant": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_INCOME_TYPE_Student": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_INCOME_TYPE_Unemployed": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_INCOME_TYPE_Working": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_EDUCATION_TYPE_Higher_education": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_EDUCATION_TYPE_Incomplete_higher": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_EDUCATION_TYPE_Lower_secondary": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_EDUCATION_TYPE_Secondary_secondary_special": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_FAMILY_STATUS_Married": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_FAMILY_STATUS_Separated": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_FAMILY_STATUS_Single_not_married": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_FAMILY_STATUS_Unknown": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_FAMILY_STATUS_Widow": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_HOUSING_TYPE_House_apartment": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_HOUSING_TYPE_Municipal_apartment": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_HOUSING_TYPE_Office_apartment": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_HOUSING_TYPE_Rented_apartment": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "NAME_HOUSING_TYPE_With_parents": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Cleaning_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Cooking_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Core_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Drivers": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_HR_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_High_skill_tech_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_IT_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Laborers": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Low_skill_Laborers": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Managers": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Medicine_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Missing": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Private_service_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Realty_agents": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Sales_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Secretaries": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Security_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OCCUPATION_TYPE_Waiters_barmen_staff": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WEEKDAY_APPR_PROCESS_START_MONDAY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WEEKDAY_APPR_PROCESS_START_SATURDAY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WEEKDAY_APPR_PROCESS_START_SUNDAY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WEEKDAY_APPR_PROCESS_START_THURSDAY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WEEKDAY_APPR_PROCESS_START_TUESDAY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WEEKDAY_APPR_PROCESS_START_WEDNESDAY": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FONDKAPREMONT_MODE_not_specified": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FONDKAPREMONT_MODE_org_spec_account": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FONDKAPREMONT_MODE_reg_oper_account": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "FONDKAPREMONT_MODE_reg_oper_spec_account": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "HOUSETYPE_MODE_block_of_flats": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "HOUSETYPE_MODE_specific_housing": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "HOUSETYPE_MODE_terraced_house": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WALLSMATERIAL_MODE_Missing": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WALLSMATERIAL_MODE_Mixed": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WALLSMATERIAL_MODE_Monolithic": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WALLSMATERIAL_MODE_Others": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WALLSMATERIAL_MODE_Panel": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WALLSMATERIAL_MODE_Stone_brick": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "WALLSMATERIAL_MODE_Wooden": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "EMERGENCYSTATE_MODE_No": {
+        "min": 0.0,
+        "max": 1.0
+    },
+    "EMERGENCYSTATE_MODE_Yes": {
+        "min": 0.0,
+        "max": 1.0
+    }
+}
