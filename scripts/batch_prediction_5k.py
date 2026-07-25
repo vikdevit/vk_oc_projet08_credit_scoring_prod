@@ -17,7 +17,7 @@ API_URL = "https://vk-oc-projet08-credit-scoring-prod.onrender.com/predict"
 
 DATA_PATH = "data/X_test_ml.parquet"
 
-START_ROW = 21000
+START_ROW = 21020
 
 N_ROWS = 20
 
